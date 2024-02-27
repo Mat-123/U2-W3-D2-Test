@@ -19,7 +19,7 @@ const save = (e) => {
   localStorage.setItem("userName", userName);
   displayUsr();
 
-  userName.value = "";
+  usrTxt.value = "";
 };
 
 const deleteUser = function () {
