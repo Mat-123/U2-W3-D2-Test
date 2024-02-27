@@ -15,7 +15,7 @@ const displayUsr = function () {
 const save = (e) => {
   e.preventDefault();
 
-  const userName = document.getElementById("userName").value;
+  const userName = usrTxt.value;
   localStorage.setItem("userName", userName);
   displayUsr();
 
